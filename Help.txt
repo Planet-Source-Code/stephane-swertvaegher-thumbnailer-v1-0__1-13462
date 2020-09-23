@@ -1,0 +1,71 @@
+Completely coded by Stephan Swertvaegher
+December 2000.
+
+HELPFILES
+------------------
+A) The Directory
+------------------------
+Click on the drive controll or the dirlist controll to select a 
+directory with pictures. These pictures can be of the format *.Bmp,
+*.Gif, *.Jpg, *.Wmf or *.Ico
+If this directory contains pictures, it will be shown in the file list.
+You can NOT select pictures in this file list.
+If you click on the 'arrow right', the first 30 pictures will be shown
+as thumbnails
+Some extra info about the directory can be read.
+
+B) The Toolbar
+-----------------------
+1) 'Arrow left': Shows the previous 30 pictures. If there are
+no previous pictures, this button is disabled.
+
+2) 'Arrow right': Shows the next 30 pictures. At the end of the
+directory, this button will be disabled.
+
+3) 'Eye': Shows the selected file in his normal size.
+
+4) 'Disk': This lets you save the selected file in its original
+format. This way you can save the selected picture to another
+directory, where it can be used.
+
+5) 'i': Shows the about-form
+
+6) '?': You are now reading it...
+
+C) The Thumbs
+-----------------------
+You van click on a thumb to select it.
+Double-click the show its original size.
+Right-click to activate a menu. This menu contains:
+ - View full picture (original size)
+ - View 75%
+ - View 50%
+ - View 25%
+Selecting one of the menu-items will activate another window and
+shows the selected picture the size you want. Very large pictures
+can be displayed completely if shown as 75%, 50% or 25%.
+
+D) Picture Info
+--------------------
+Moving the mouse over the thumbs will display info about a picture,
+like size, filename,...
+
+E) The full-screen window
+--------------------------------------
+Here you can see the selected picture (complete, 75%, 50% or 25%).
+Double-clicking on the picture lets you return to the main screen.
+Right-clicking however will activate another menu. Here you can
+display another size, from 25% to 300%.
+'Main' goes back to the main window.
+'Show info' activates a window with extra info about that picture.
+
+
+CREDITS
+---------------
+Thanks to: ??? for his PopUpMenu-Builder.
+This program saved me from a lot of code, 'cause the menus
+in this program are activated by API.
+Also thanks to: ??? for his Transparent Form-module.
+These codes where found on PSC.
+
+I cannot remember (or find) their names, but I thank them anyway.
